@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+nav {
+    height: 80px;
+    background: #6a6a6a;
+    border-bottom: 3px solid black;
+    margin-right: -50%;
+    margin-left: -50%;
+
+}
+
+.nav{
+   padding-top: 25px;
+}
+
+ul {
+    display: inline;
+    float: right;
+    margin-right: 25%;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    list-style:  none;
+    border-right: 1px solid green;
+    padding: 10px;
+}
+
+h1 {
+    background: black; 
+    color: white;
+    display: inline;
+    padding: 30px;
+    margin-left: 25%;
+}
