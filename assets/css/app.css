@@ -7,8 +7,8 @@ body {
 
 nav {
     height: 80px;
-    background: #6a6a6a;
-    border-bottom: 3px solid black;
+    background: #fff;
+    border-bottom: 2px solid #7a7a7a;
     margin-right: -50%;
     margin-left: -50%;
 
@@ -28,14 +28,29 @@ li {
     display: inline;
     text-decoration: none;
     list-style:  none;
-    border-right: 1px solid green;
     padding: 10px;
+    font-size: 1em;
+    color: #7a7a7a;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: ease .4s;
+}
+
+li:hover {
+    color: white;
+    cursor: pointer;
+    background: #2b8ec6;
+    transition: ease .4s;
+}
+
+.item {
+    border-right: 2px solid #7a7a7a;
 }
 
 h1 {
-    background: black; 
+    background: #2b8ec6; 
     color: white;
     display: inline;
-    padding: 30px;
+    padding: 29px;
     margin-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
 }
