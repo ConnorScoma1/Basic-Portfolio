@@ -62,6 +62,10 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*
 ============================ Main Content ==========================================
 */
@@ -73,6 +77,7 @@ h1 {
     margin-top: 45px;
     padding: 25px;
     border: 1px solid #2b8ec6;
+    animation: ease 2s onSlide;
 }
 
 h2 {
@@ -133,5 +138,14 @@ p {
     }
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes onSlide {
+    0% {
+        transform: translateX(100vw)
+    }
+    100% {
+        transform: translateX(0);
     }
 }
