@@ -127,10 +127,42 @@ p {
     color: white;
     text-align: center;
 }
+/*
+============================ Project Images ==========================================
+*/
+
+.img-align {
+    display: inline;
+    position: relative;
+    text-align: center;
+}
+
+.img-align:hover {
+    transition: .4s;
+    opacity: .5;
+}
+
+.img-align h4 {
+    position: absolute;
+    left: 3px;
+    background: #2b8ec6;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.img-align img {
+    height: 200px;
+    width: 300px;
+    padding: 15px;
+}
 
 /*
 ============================ Styles For Input Fields ==========================================
 */
+
+
 
 form h3 {
     font-family: Arial, Helvetica, sans-serif;
