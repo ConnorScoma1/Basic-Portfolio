@@ -129,6 +129,47 @@ p {
 }
 
 /*
+============================ Styles For Input Fields ==========================================
+*/
+
+form h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color: #6a6a6a;
+}
+
+form input {
+    width: 100%;
+    border: solid 1px #6a6a6a;
+    height: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form textarea {
+    height: 150px;
+    width: 100%;
+    font-size: 25px;
+}
+
+form button {
+    border: none;
+    background: #2b8ec6;
+    color: #fff;
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 25px;
+    transition: .4s ease;
+}
+
+form button:hover {
+    background: #15c151;
+    transition: ease .4s;
+    cursor: pointer;
+    
+}
+
+/*
 ============================ Keyframes / CSS Animation ==========================================
 */
 
