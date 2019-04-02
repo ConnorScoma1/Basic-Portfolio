@@ -67,7 +67,33 @@ h1 {
     border: 1px solid #2b8ec6;
 }
 
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 32px;
+    color: #2b8ec6;
+}
+
+hr {
+    height: 5px;
+    color: #2b8ec6;
+    background: #2b8ec6;
+    border: none;
+    width: 35vw;
+}
+
 .port-img {
     float: left;
     display: inline-block;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+p {
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 65px;
+
 }
