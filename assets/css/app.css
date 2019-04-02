@@ -8,6 +8,10 @@ body {
     
 }
 
+/*
+============================ Main Nav ==========================================
+*/
+
 nav {
     height: 80px;
     background: #fff;
@@ -58,6 +62,10 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*
+============================ Main Content ==========================================
+*/
+
 .container {
     height: 700px;
     width: 1000px;
@@ -95,5 +103,22 @@ p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 65px;
+}
 
+/*
+============================ Footer ==========================================
+*/
+
+.footer {
+    height: 100px;
+    width: 100vw;
+    background: #2b8ec6;
+    position: fixed;
+    bottom: 0;
+    margin-left: -25%;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
 }
