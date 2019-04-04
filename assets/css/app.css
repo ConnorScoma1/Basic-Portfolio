@@ -12,9 +12,8 @@ html {
 body {
     margin-right: 25%;
     margin-left: 25%;
-    background-image: url('https://images.pexels.com/photos/768943/pexels-photo-768943.jpeg?cs=srgb&dl=bloom-blooming-cafe-768943.jpg&fm=jpg');
     background-size: 100vw;
-    animation: ease onLoad 3s;
+    animation: ease-out onLoad 3s;
 }
 
 /*
