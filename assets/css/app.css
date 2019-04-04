@@ -1,10 +1,19 @@
-body {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
     margin-right: 25%;
     margin-left: 25%;
     background-image: url('https://images.pexels.com/photos/768943/pexels-photo-768943.jpeg?cs=srgb&dl=bloom-blooming-cafe-768943.jpg&fm=jpg');
-    background-size: 125vw;
+    background-size: 100vw;
     animation: ease onLoad 3s;
 }
 
@@ -13,7 +22,7 @@ body {
 */
 
 nav {
-    height: 80px;
+    height: 8rem;
     background: #fff;
     border-bottom: 2px solid #7a7a7a;
     margin-right: -50%;
@@ -21,7 +30,7 @@ nav {
 }
 
 .nav{
-   padding-top: 25px;
+   padding-top: 2.5rem;
 }
 
 ul {
@@ -34,8 +43,8 @@ li {
     display: inline;
     text-decoration: none;
     list-style:  none;
-    padding: 10px;
-    font-size: 1em;
+    padding: 1rem;
+    font-size: 2em;
     color: #7a7a7a;
     font-family: Arial, Helvetica, sans-serif;
     transition: ease .4s;
@@ -56,9 +65,10 @@ h1 {
     background: #2b8ec6; 
     color: white;
     display: inline;
-    padding: 29px;
+    padding: 2.9rem;
     margin-left: 25%;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
 }
 
 a {
@@ -70,20 +80,20 @@ a {
 */
 
 .container {
-    height: 700px;
-    width: 1000px;
+    height: 70rem;
+    width: 100rem;
     background: #fff;
-    margin-top: 45px;
-    padding: 25px;
+    margin-top: 4.5rem;
+    padding: 2.5rem;
     border: 1px solid #2b8ec6;
     animation: ease 2s onSlide;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    margin-left: 15px;
-    font-size: 32px;
+    padding: .5rem;
+    margin-left: 1.5rem;
+    font-size: 3.2rem;
     color: #2b8ec6;
 }
 
@@ -98,15 +108,15 @@ hr {
 .port-img {
     float: left;
     display: inline-block;
-    margin-top: 25px;
-    padding: 25px;
+    margin-top: 2.5rem;
+    padding: 2.5rem;
 }
 
 p {
-    margin-top: 25px;
-    font-size: 20px;
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 65px;
+    line-height: 6.5rem;
 }
 
 /*
@@ -114,7 +124,7 @@ p {
 */
 
 .footer {
-    height: 100px;
+    height: 10rem;
     width: 100vw;
     background: #2b8ec6;
     position: fixed;
@@ -146,23 +156,25 @@ p {
     left: 3px;
     background: #2b8ec6;
     color: white;
-    padding: 15px;
+    padding: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
     
 }
 
 .img-align img {
-    height: 200px;
-    width: 300px;
+    height: 20rem;
+    width: 30rem;
     padding: 15px;
 }
 
 .text-img {
-    height: 200px;
-    width: 300px;
+    height: 20rem;
+    width: 30rem;
     position: relative;
     display: inline-block; 
-    margin-left: 25px;
+    margin-left: 2.5rem;
+
 }
 
 
@@ -174,31 +186,31 @@ p {
 
 form h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
+    font-size: 2.7rem;
     color: #6a6a6a;
 }
 
 form input {
     width: 100%;
     border: solid 1px #6a6a6a;
-    height: 30px;
-    font-size: 25px;
+    height: 3rem;
+    font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 form textarea {
-    height: 150px;
+    height: 15rem;
     width: 100%;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 form button {
     border: none;
     background: #2b8ec6;
     color: #fff;
-    margin-top: 15px;
-    padding: 15px;
-    font-size: 25px;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    font-size: 2.5rem;
     transition: .4s ease;
 }
 
